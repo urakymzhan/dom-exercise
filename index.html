@@ -6,19 +6,18 @@
 </head>
 <body>
 <div id='blog-test'>
-    This element is <strong>strong</strong> and     has some super fun <code>code</code>!
+    I am simply a bunch of <strong>meaningul</strong> text     that has no meaning <code>console</code> to see differences!
 </div>
 
 <script>
     const getValue = document.getElementById('blog-test');
 
     console.log(getValue.innerHTML)
-    // This element is <strong>strong</strong> and has    some super fun <code>code</code>!
+    
     console.log(getValue.innerText);
-    // This element is strong and has some super fun code!
+    
     console.log(getValue.textContent);
-    // This element is strong and     has some super fun code!
-
+    
 </script>
 </body>
 </html>
