@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dom exercise</title>
+</head>
+<body>
+<div id='blog-test'>
+    This element is <strong>strong</strong> and     has some super fun <code>code</code>!
+</div>
+
+<script>
+    const getValue = document.getElementById('blog-test');
+
+    console.log(getValue.innerHTML)
+    // This element is <strong>strong</strong> and has    some super fun <code>code</code>!
+    console.log(getValue.innerText);
+    // This element is strong and has some super fun code!
+    console.log(getValue.textContent);
+    // This element is strong and     has some super fun code!
+
+</script>
+</body>
+</html>
